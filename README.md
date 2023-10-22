@@ -1,2 +1,1 @@
 Stéphanie Parragi Thérapeute
-Psychothérapeute PNL
