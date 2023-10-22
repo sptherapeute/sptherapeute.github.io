@@ -1,2 +1,2 @@
-# sptherapeute.github.io
-Site web de Psychothérapeute PNL
+Stéphanie Parragi Thérapeute
+Psychothérapeute PNL
