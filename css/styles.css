@@ -1,8 +1,4 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,700,500);
-/*
-Author: webthemez.com
-Author URL: http://webthemez.com
-*/
 /*************************
 *******Typography******
 **************************/
@@ -14,6 +10,7 @@ body {
   color: #282828;
   line-height: 26px;
   padding: 0;
+  font-size: 16px;
 }
 h1,
 h2,
@@ -51,8 +48,8 @@ hr {
   background-image: -ms-linear-gradient(4deg, #2caab3 0%, #2c8cb3 100%);
 }
 .header-title {
-  font-size: 20px;
-  color: #3B8838;
+  font-size: 18px;
+  color: #105010;
   position: relative;
   padding-bottom: 2px;
   margin: 0 20 20px;  
@@ -68,11 +65,10 @@ text-align:center;
 }
 .section-header .section-title {
   font-size: 44px;
-  color: #3B8838;
+  color: #105010;
   position: relative;
   padding-bottom: 20px;
   margin: 0 0 20px;  
-
 
   display: block;
   text-align: center;
@@ -99,6 +95,7 @@ text-align:center;
 }
 .btn.btn-primary {
   background: #50A24C;
+  font-size: 18px;
 }
 .btn.btn-primary:hover,
 .btn.btn-primary:focus {
@@ -122,7 +119,7 @@ color: #F9690E;
   border-bottom: 1px solid #eee;
   margin-bottom: 15px;
   position: relative;
-  color: #3B8838;
+  color: #105010;
 }
 .column-title:after {
   content: " ";
@@ -378,7 +375,8 @@ color: #020202;
   padding: 100px 0 75px;
   background-color: #98DC95;
   border-top: 3px solid #fff;
-  background: url('../images/img2.jpg');      background-size: cover;
+  background: url('../images/fond_galets.jpg');
+  background-size: cover;
 }
 .media.service-box {
   margin: 25px 0 36px;
@@ -387,7 +385,7 @@ color: #020202;
   position: relative;
   background: #FFFFFF;
   border-radius: 0 0 20px 0;
-  /* border: #3B8838 2px solid; */
+  /* border: #105010 2px solid; */
 }
 .media.service-box .pull-left {
   margin-right: 20px;
@@ -493,7 +491,7 @@ padding-top: 10px;
   height: 60px;
   line-height: 36px;
   text-align: center;
-  color: #98DC95;
+  color: #105010;
   display:block;
   text-align: center;
 
@@ -576,12 +574,12 @@ margin-bottom: 15px;
   background: #222222;
   background-size: cover;
   padding: 100px 0;
-  color: #3B8838;
-  background: url('../images/img2.jpg');
+  color: #105010;
+  background: url('../images/fond_galets.jpg');
   background-size: cover;
 }
 #testimonial h2{
-color: #3B8838;
+color: #105010;
 }
 #testimonial h4 {
   color: #fff;
@@ -603,17 +601,17 @@ margin: 0 8px;
 #about {
   padding: 100px 0;
   /* background: #07080A; */
-  /* background: url('../images/img2.jpg'); */    
+  /* background: url('../images/fond_galets.jpg'); */    
   /* background-size: cover; */  
 }
 #about .column-title{
 color:#fff;
 }
 #about p{
-color: #3B8837;
+color: #003000;
 }
 #about .listarrow li{
-color: #3B8838;
+color: #003000;
 }
 /*Team*/ 
 #our-team {
@@ -627,12 +625,12 @@ color: #3B8838;
 }
 #our-team .team-member .team-info { 
   background: #98DC95;
-  color: #3B8838;
+  color: #105010;
   padding: 7px 0;
   border-top: 2px solid #fff;
 } 
 #our-team .team-member:hover .social-icons > li > a {
-  color: #3B8838;
+  color: #105010;
 }
  
 #our-team .social-icons {
@@ -653,10 +651,10 @@ color: #3B8838;
   height: 32px;
   line-height: 32px;
   text-align: center;
-  color: #3B8838;
+  color: #105010;
   background: transparent;
   border-radius: 3px;
-  border: 1px solid #3B8838;
+  border: 1px solid #105010;
   margin: 5px 10px;
 }
 /*Testimonial Area*/
@@ -677,7 +675,7 @@ color: #3B8838;
 	font-size: 14px;
 	background: rgb(255, 255, 255);
 
-	color: #3B8837;
+	color: #003000;
 line-height: 22px;
 
 	border-radius: 5px;
@@ -700,7 +698,7 @@ line-height: 22px;
 .single-testimonial h5{
 	padding: 8px 0 0px;
 	font-size: 16px;
-	color: #3B8838;
+	color: #105010;
 }
  
 .progress {
@@ -733,8 +731,9 @@ line-height: 22px;
 .nav.main-tab > li:last-child > a {
   border-radius: 0 3px 0 0;
 }
- .navbar-nav {
-margin: 0;  
+.navbar-nav {
+  margin: 0;  
+  font-size: 14px;
 }
 .tab-content {
   border: 1px solid #eee;
@@ -761,7 +760,7 @@ margin: 0;
   background: #FFFFFF;
   background-size: cover;
   color: #000;
-  /* background: url('../images/img2.jpg'); */
+  /* background: url('../images/fond_galets.jpg'); */
   background-size: contain;
 }
 #business-stats h1,
@@ -786,6 +785,11 @@ margin: 0;
 }
 #pricing {
   padding: 100px 0 70px;
+  background-color: #98DC95;
+  border-top: 3px solid #fff;
+  background: url('../images/fond_galets.jpg');
+  background-size: cover;
+  background-position: center;
 }
 #pricing ul.pricing {
   list-style: none;
@@ -802,8 +806,8 @@ margin: 0;
 }
 #pricing ul.pricing li.plan-header { 
   padding: 15px 15px 30px;
-  color: #3B8838 !important;
-  height: 225px;
+  color: #105010 !important;
+  height: 125px;
 }
 #pricing ul.pricing li.plan-header .price-duration {
   position: relative;
@@ -843,12 +847,12 @@ li.plan-purchase .btn {
   border: 1px solid #D0D0D0;
 }
 #pricing ul.pricing.featured  li.plan-header .price-duration{
-color: #3B8838;
+color: #105010;
 }
 #pricing ul.pricing.featured li.plan-header {
 }
 #pricing ul.pricing.featured li.plan-header .plan-name {
-  color: #3B8838;
+  color: #105010;
 }
 #contact-us {
   padding: 100px 0 10px;
@@ -861,13 +865,16 @@ color: #3B8838;
  background: #98DC95;
  padding: 50px;
  margin-bottom: 50px;
- background: url('../images/img2.jpg');
+ background: url('../images/galets.jpg');
+ background-size: cover;
+ background-position: center;
 }
 .contact-info address {
 margin-bottom: 20px;
 font-style: normal;
 line-height: 27px;
-font-size: 15px;
+font-size: 16px;
+color: #FFFFFF;
 }
 .contact-info .form-control { 
 padding: 6px 12px;
@@ -890,7 +897,7 @@ width: 100px;
   padding-top: 30px;
   padding-bottom: 30px;
   color: #fff;
-  background: #3B8838;
+  background: #105010;
 }
 #footer a {
   color: #fff;
