@@ -49,7 +49,7 @@ hr {
 }
 .header-title {
   font-size: 18px;
-  color: #105010;
+  color: #004000;
   position: relative;
   padding-bottom: 2px;
   margin: 0 20 20px;  
@@ -65,11 +65,11 @@ text-align:center;
 }
 .section-header .section-title {
   font-size: 44px;
-  color: #105010;
+  color: #004000;
   position: relative;
   padding-bottom: 20px;
   margin: 0 0 20px;  
-
+  text-shadow: 0px 0px 20px #FFF;
   display: block;
   text-align: center;
 }
@@ -119,7 +119,7 @@ color: #F9690E;
   border-bottom: 1px solid #eee;
   margin-bottom: 15px;
   position: relative;
-  color: #105010;
+  color: #004000;
 }
 .column-title:after {
   content: " ";
@@ -229,7 +229,7 @@ background: #FFF;
 
   #main-nav.navbar-default .navbar-nav > li.open > a,
   #main-nav.navbar-default .navbar-nav > li:hover > a {
-    background: #3B8838; 
+    background: #004000; 
 	
     color: #FFFFFF;
   
@@ -371,12 +371,14 @@ color: #020202;
 #features .media.service-box:first-child {
   margin-top: 80px;
 }
-#services, #features {
+#services, #features, #accompaniments {
   padding: 100px 0 75px;
   background-color: #98DC95;
   border-top: 3px solid #fff;
-  background: url('../images/fond_galets.jpg');
+  background: url('../images/fontaine3.jpg');
   background-size: cover;
+  font-weight: 500;
+  color: #003000;
 }
 .media.service-box {
   margin: 25px 0 36px;
@@ -385,7 +387,7 @@ color: #020202;
   position: relative;
   background: #FFFFFF;
   border-radius: 0 0 20px 0;
-  /* border: #105010 2px solid; */
+  /* border: #004000 2px solid; */
 }
 .media.service-box .pull-left {
   margin-right: 20px;
@@ -491,7 +493,7 @@ padding-top: 10px;
   height: 60px;
   line-height: 36px;
   text-align: center;
-  color: #105010;
+  color: #004000;
   display:block;
   text-align: center;
 
@@ -574,12 +576,12 @@ margin-bottom: 15px;
   background: #222222;
   background-size: cover;
   padding: 100px 0;
-  color: #105010;
+  color: #004000;
   background: url('../images/fond_galets.jpg');
   background-size: cover;
 }
 #testimonial h2{
-color: #105010;
+color: #004000;
 }
 #testimonial h4 {
   color: #fff;
@@ -605,14 +607,35 @@ margin: 0 8px;
   /* background-size: cover; */  
 }
 #about .column-title{
-color:#fff;
+  color:#fff;
 }
 #about p{
-color: #003000;
+  color: #003000;
+  font-weight: 500;
 }
 #about .listarrow li{
-color: #003000;
+  color: #003000;
+  font-weight: 500;
 }
+
+#session {
+  padding: 100px 0;
+  /* background: #07080A; */
+  /* background: url('../images/fond_galets.jpg'); */    
+  /* background-size: cover; */  
+}
+#session .column-title{
+  color:#fff;
+}
+#session p{
+  color: #003000;
+  font-weight: 500;
+}
+#session .listarrow li{
+  color: #003000;
+  font-weight: 500;
+}
+
 /*Team*/ 
 #our-team {
   padding: 100px 0;
@@ -625,12 +648,12 @@ color: #003000;
 }
 #our-team .team-member .team-info { 
   background: #98DC95;
-  color: #105010;
+  color: #004000;
   padding: 7px 0;
   border-top: 2px solid #fff;
 } 
 #our-team .team-member:hover .social-icons > li > a {
-  color: #105010;
+  color: #004000;
 }
  
 #our-team .social-icons {
@@ -651,10 +674,10 @@ color: #003000;
   height: 32px;
   line-height: 32px;
   text-align: center;
-  color: #105010;
+  color: #004000;
   background: transparent;
   border-radius: 3px;
-  border: 1px solid #105010;
+  border: 1px solid #004000;
   margin: 5px 10px;
 }
 /*Testimonial Area*/
@@ -676,7 +699,7 @@ color: #003000;
 	background: rgb(255, 255, 255);
 
 	color: #003000;
-line-height: 22px;
+  line-height: 22px;
 
 	border-radius: 5px;
 	border: 1px solid rgb(152, 220, 149);
@@ -698,7 +721,7 @@ line-height: 22px;
 .single-testimonial h5{
 	padding: 8px 0 0px;
 	font-size: 16px;
-	color: #105010;
+	color: #004000;
 }
  
 .progress {
@@ -806,7 +829,7 @@ line-height: 22px;
 }
 #pricing ul.pricing li.plan-header { 
   padding: 15px 15px 30px;
-  color: #105010 !important;
+  color: #004000 !important;
   height: 125px;
 }
 #pricing ul.pricing li.plan-header .price-duration {
@@ -847,13 +870,234 @@ li.plan-purchase .btn {
   border: 1px solid #D0D0D0;
 }
 #pricing ul.pricing.featured  li.plan-header .price-duration{
-color: #105010;
+color: #004000;
 }
 #pricing ul.pricing.featured li.plan-header {
 }
 #pricing ul.pricing.featured li.plan-header .plan-name {
-  color: #105010;
+  color: #004000;
 }
+
+#therapies {
+  padding: 100px 0 70px;
+  background-color: #98DC95;
+  border-top: 3px solid #fff;
+  background: url('../images/fontaine1.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #003000;
+}
+#therapies ul.pricing {
+  list-style: none;
+  padding: 0;
+  margin: 70px 0 30px;
+  border: 1px solid #98DC95; 
+  padding: 8px;
+  text-align: center;
+  background: #FFFFFF;
+  font-weight: 500;
+}
+#therapies ul.pricing li {
+  display: block;
+  padding: 10px;
+  font-weight: 500;
+}
+#therapies ul.pricing li.plan-header { 
+  padding: 15px 15px 30px;
+  color: #004000 !important;
+  height: 125px;
+}
+#therapies ul.pricing li.plan-header .price-duration {
+  position: relative;
+  margin-top: 15px;
+  top: -16px;
+  display: inline-block;
+  width: 100%;
+  height: 85px; 
+  color: #474747;  
+}
+#therapies ul.pricing li.plan-header .price-duration > span {
+  display: block;
+  line-height: 1;
+}
+#therapies ul.pricing li.plan-header .price-duration > span.price {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 35px;
+  color: #003000;
+}
+#therapies ul.pricing li.plan-header .price-duration > span.duration {
+  margin-top: 5px;
+  color: #003000;
+}
+#therapies ul.pricing li.plan-header .plan-name {
+  margin-top: 10px;
+  font-size: 24px;
+  color: #5A5A5A;
+  font-weight: bold;
+  line-height: 1;
+  text-transform: uppercase;
+}
+#therapies ul.pricing.featured {
+  background: #98DC95; 
+  border: 0;
+  border: 1px solid #D0D0D0;
+}
+#therapies ul.pricing.featured  li.plan-header .price-duration{
+  color: #004000;
+}
+#therapies ul.pricing.featured li.plan-header {
+}
+#therapies ul.pricing.featured li.plan-header .plan-name {
+  color: #004000;
+}
+
+#specialties {
+  padding: 100px 0 70px;
+  background-color: #98DC95;
+  border-top: 3px solid #fff;
+  background: url('../images/fontaine2.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #003000;
+}
+#specialties ul.pricing {
+  list-style: none;
+  padding: 0;
+  margin: 70px 0 30px;
+  border: 1px solid #98DC95; 
+  padding: 8px;
+  text-align: center;
+  background: #FFFFFF;
+  font-weight: 500;
+}
+#specialties ul.pricing li {
+  display: block;
+  padding: 10px;
+  font-weight: 500;
+}
+#specialties ul.pricing li.plan-header { 
+  padding: 15px 15px 30px;
+  color: #004000 !important;
+  height: 125px;
+}
+#specialties ul.pricing li.plan-header .price-duration {
+  position: relative;
+  margin-top: 15px;
+  top: -16px;
+  display: inline-block;
+  width: 100%;
+  height: 85px; 
+  color: #474747;  
+}
+#specialties ul.pricing li.plan-header .price-duration > span {
+  display: block;
+  line-height: 1;
+}
+#specialties ul.pricing li.plan-header .price-duration > span.price {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 35px;
+  color: #003000;
+}
+#specialties ul.pricing li.plan-header .price-duration > span.duration {
+  margin-top: 5px;
+}
+#specialties ul.pricing li.plan-header .plan-name {
+  margin-top: 10px;
+  font-size: 24px;
+  color: #5A5A5A;
+  font-weight: bold;
+  line-height: 1;
+  text-transform: uppercase;
+}
+#specialties ul.pricing.featured {
+  background: #98DC95; 
+  border: 0;
+  border: 1px solid #D0D0D0;
+}
+#specialties ul.pricing.featured  li.plan-header .price-duration{
+color: #004000;
+}
+#specialties ul.pricing.featured li.plan-header {
+}
+#specialties ul.pricing.featured li.plan-header .plan-name {
+  color: #004000;
+}
+
+#forwho {
+  padding: 100px 0 70px;
+  background-color: #98DC95;
+  border-top: 3px solid #fff;
+  background: url('../images/fontaine4.jpg');
+  background-size: contain;
+  background-position: center;
+  color: #003000;
+}
+#forwho ul.pricing {
+  list-style: none;
+  padding: 0;
+  margin: 70px 0 30px;
+  border: 1px solid #98DC95; 
+  padding: 8px;
+  text-align: center;
+  background: #FFFFFF;
+  font-weight: 500;
+}
+#forwho ul.pricing li {
+  display: block;
+  padding: 10px;
+  font-weight: 500;
+}
+#forwho ul.pricing li.plan-header { 
+  padding: 15px 15px 30px;
+  color: #004000 !important;
+  height: 125px;
+}
+#forwho ul.pricing li.plan-header .price-duration {
+  position: relative;
+  margin-top: 15px;
+  top: -16px;
+  display: inline-block;
+  width: 100%;
+  height: 85px; 
+  color: #474747;  
+}
+#forwho ul.pricing li.plan-header .price-duration > span {
+  display: block;
+  line-height: 1;
+}
+#forwho ul.pricing li.plan-header .price-duration > span.price {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 35px;
+  color: #003000;
+}
+#forwho ul.pricing li.plan-header .price-duration > span.duration {
+  margin-top: 5px;
+}
+#forwho ul.pricing li.plan-header .plan-name {
+  margin-top: 10px;
+  font-size: 24px;
+  color: #5A5A5A;
+  font-weight: bold;
+  line-height: 1;
+  text-transform: uppercase;
+}
+#forwho ul.pricing.featured {
+  background: #98DC95; 
+  border: 0;
+  border: 1px solid #D0D0D0;
+}
+#forwho ul.pricing.featured  li.plan-header .price-duration{
+color: #004000;
+}
+#forwho ul.pricing.featured li.plan-header {
+}
+#forwho ul.pricing.featured li.plan-header .plan-name {
+  color: #004000;
+}
+
 #contact-us {
   padding: 100px 0 10px;
 }
@@ -869,12 +1113,13 @@ color: #105010;
  background-size: cover;
  background-position: center;
 }
-.contact-info address {
+.contact-info {
 margin-bottom: 20px;
 font-style: normal;
 line-height: 27px;
 font-size: 16px;
 color: #FFFFFF;
+text-shadow: 0px 0px 10px #000;
 }
 .contact-info .form-control { 
 padding: 6px 12px;
@@ -897,7 +1142,8 @@ width: 100px;
   padding-top: 30px;
   padding-bottom: 30px;
   color: #fff;
-  background: #105010;
+  background: #004000;
+  font-weight: 500;
 }
 #footer a {
   color: #fff;
@@ -911,11 +1157,11 @@ width: 100px;
   margin: 0 -7.5px;
 }
 #footer ul > li {
- display: inline-block; 
+  display: inline-block; 
 
-padding: 3px 0;
-width: 31px;
-text-align: center;
+  padding: 3px 0;
+  width: 31px;
+  text-align: center;
 }
 @media only screen and (min-width: 768px) {
   #footer .social-icons {
