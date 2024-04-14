@@ -189,8 +189,8 @@ color: #FFFFFF;
   margin-bottom: 0;
 }
 .navbar.navbar-default .navbar-toggle {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .navbar.navbar-default .navbar-brand {
   height: auto;
